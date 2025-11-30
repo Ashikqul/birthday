@@ -17,13 +17,14 @@ const Playlist = () => {
 
   const [currentSong, setCurrentSong] = useState("");
 
-  const convertToEmbed = (url) => {
-    if (url.includes("shorts")) {
-      const id = url.split("shorts/")[1];
-      return `https://www.youtube.com/embed/${id}?autoplay=1&controls=0&modestbranding=1`;
-    }
-    return url;
-  };
+ const convertToEmbed = (url) => {
+  if (url.includes("shorts")) {
+    const id = url.split("shorts/")[1];
+    return `https://www.youtube.com/embed/${id}?autoplay=1&mute=1&playsinline=1`;
+  }
+  return url;
+};
+
 
   const handleSongClick = (url) => {
     const embed = convertToEmbed(url);

@@ -7,9 +7,10 @@ import birthdayAnimation from '../../../assets/Stream of Hearts.json';
 const Poster = () => {
   return (
       <div
-      className="flex flex-col min-h-screen bg-gradient-to-b from-pink-200 via-pink-400 to-pink-600 space-y-6 p-4 bg-cover bg-center bg-no-repeat"
+      className="flex flex-col min-h-screen bg-gradient-to-b from-pink-200 via-pink-400 to-pink-600 space-y-6 p-4 bg-cover  bg-no-repeat"
       style={{
-        backgroundImage: 
+        backgroundImage:
+         
           "url('https://img.freepik.com/premium-photo/couple-kissing-beach-sunset_984237-43374.jpg?semt=ais_hybrid&w=740&q=80')",
       }}
      
