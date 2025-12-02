@@ -4,6 +4,7 @@ import Letter from '../Latter/letter';
 import Poster from './poster';
 import LoveCalendar from '../LoveCalendar/LoveCalendar';
 import Playlist from '../Playlist/Playlist';
+import Lovevideo from '../LoveViedo/Loveviedo';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Poster></Poster>
             <LoveCalendar></LoveCalendar>
             <Playlist></Playlist>
+            <Lovevideo></Lovevideo>
         </div>
     );
 };
